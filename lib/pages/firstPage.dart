@@ -17,9 +17,9 @@ class FirstPage extends StatelessWidget {
           padding: const EdgeInsets.only(left: 20),
           child: Image.asset(
             "assets/logo.png",
-            fit: BoxFit.fitHeight,
+            fit: BoxFit.cover,
             height: 50,
-            width: 200,
+            width: 300,
           ),
         ),
         actions: const [
