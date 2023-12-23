@@ -122,11 +122,13 @@ class SecondPage extends StatelessWidget {
               const SizedBox(
                 width: 20,
               ),
-              Padding(
-                padding: const EdgeInsets.only(left: 200),
-                child: Text(
-                  "すべて見る > ",
-                  style: GoogleFonts.aBeeZee(color: Colors.blue),
+              Expanded(
+                child: Padding(
+                  padding: const EdgeInsets.only(left: 200),
+                  child: Text(
+                    "すべて見る > ",
+                    style: GoogleFonts.aBeeZee(color: Colors.blue),
+                  ),
                 ),
               ),
             ],
@@ -139,14 +141,14 @@ class SecondPage extends StatelessWidget {
                     borderRadius: BorderRadius.circular(5),
                     child: Padding(
                       padding: const EdgeInsets.only(left: 20, top: 10),
-                      child: Image.asset("assets/couples.png"),
+                      child: Expanded(child: Image.asset("assets/couples.png")),
                     ),
                   ),
                   ClipRRect(
                     borderRadius: BorderRadius.circular(5),
                     child: Padding(
                       padding: const EdgeInsets.only(left: 10, top: 10),
-                      child: Image.asset("assets/bulb.png"),
+                      child: Expanded(child: Image.asset("assets/bulb.png")),
                     ),
                   ),
                 ],
@@ -161,9 +163,11 @@ class SecondPage extends StatelessWidget {
                     "CATCHY 第1部 情報番組 …",
                     style: GoogleFonts.aBeeZee(fontWeight: FontWeight.bold),
                   ),
-                  Text(
-                    "セイカツをカエルTV - 20…",
-                    style: GoogleFonts.aBeeZee(fontWeight: FontWeight.bold),
+                  Expanded(
+                    child: Text(
+                      "セイカツをカエルTV - 20…",
+                      style: GoogleFonts.aBeeZee(fontWeight: FontWeight.bold),
+                    ),
                   ),
                 ],
               ),
@@ -180,9 +184,11 @@ class SecondPage extends StatelessWidget {
                   const SizedBox(
                     width: 70,
                   ),
-                  Text(
-                    "2023/5/8 放送分",
-                    style: GoogleFonts.aBeeZee(color: Colors.grey.shade400),
+                  Expanded(
+                    child: Text(
+                      "2023/5/8 放送分",
+                      style: GoogleFonts.aBeeZee(color: Colors.grey.shade400),
+                    ),
                   ),
                 ],
               )
@@ -199,14 +205,14 @@ class SecondPage extends StatelessWidget {
                     borderRadius: BorderRadius.circular(5),
                     child: Padding(
                       padding: const EdgeInsets.only(left: 20, top: 10),
-                      child: Image.asset("assets/couples.png"),
+                      child: Expanded(child: Image.asset("assets/couples.png")),
                     ),
                   ),
                   ClipRRect(
                     borderRadius: BorderRadius.circular(5),
                     child: Padding(
                       padding: const EdgeInsets.only(left: 10, top: 10),
-                      child: Image.asset("assets/bulb.png"),
+                      child: Expanded(child: Image.asset("assets/bulb.png")),
                     ),
                   ),
                 ],
@@ -221,9 +227,11 @@ class SecondPage extends StatelessWidget {
                     "CATCHY 第1部 情報番組 …",
                     style: GoogleFonts.aBeeZee(fontWeight: FontWeight.bold),
                   ),
-                  Text(
-                    "セイカツをカエルTV - 20…",
-                    style: GoogleFonts.aBeeZee(fontWeight: FontWeight.bold),
+                  Expanded(
+                    child: Text(
+                      "セイカツをカエルTV - 20…",
+                      style: GoogleFonts.aBeeZee(fontWeight: FontWeight.bold),
+                    ),
                   ),
                 ],
               ),
@@ -240,9 +248,11 @@ class SecondPage extends StatelessWidget {
                   const SizedBox(
                     width: 70,
                   ),
-                  Text(
-                    "2023/5/8 放送分",
-                    style: GoogleFonts.aBeeZee(color: Colors.grey.shade400),
+                  Expanded(
+                    child: Text(
+                      "2023/5/8 放送分",
+                      style: GoogleFonts.aBeeZee(color: Colors.grey.shade400),
+                    ),
                   ),
                 ],
               ),
@@ -311,7 +321,7 @@ class SecondPage extends StatelessWidget {
                     borderRadius: BorderRadius.circular(5),
                     child: Padding(
                       padding: const EdgeInsets.only(left: 10, top: 10),
-                      child: Image.asset("assets/bulb.png"),
+                      child: Expanded(child: Image.asset("assets/bulb.png")),
                     ),
                   ),
                 ],
@@ -326,9 +336,11 @@ class SecondPage extends StatelessWidget {
                     "CATCHY 第1部 情報番組 …",
                     style: GoogleFonts.aBeeZee(fontWeight: FontWeight.bold),
                   ),
-                  Text(
-                    "セイカツをカエルTV - 20…",
-                    style: GoogleFonts.aBeeZee(fontWeight: FontWeight.bold),
+                  Expanded(
+                    child: Text(
+                      "セイカツをカエルTV - 20…",
+                      style: GoogleFonts.aBeeZee(fontWeight: FontWeight.bold),
+                    ),
                   ),
                 ],
               ),
@@ -345,9 +357,11 @@ class SecondPage extends StatelessWidget {
                   const SizedBox(
                     width: 70,
                   ),
-                  Text(
-                    "2023/5/8 放送分",
-                    style: GoogleFonts.aBeeZee(color: Colors.grey.shade400),
+                  Expanded(
+                    child: Text(
+                      "2023/5/8 放送分",
+                      style: GoogleFonts.aBeeZee(color: Colors.grey.shade400),
+                    ),
                   ),
                 ],
               ),
@@ -360,14 +374,14 @@ class SecondPage extends StatelessWidget {
                     borderRadius: BorderRadius.circular(5),
                     child: Padding(
                       padding: const EdgeInsets.only(left: 20, top: 10),
-                      child: Image.asset("assets/couples.png"),
+                      child: Expanded(child: Image.asset("assets/couples.png")),
                     ),
                   ),
                   ClipRRect(
                     borderRadius: BorderRadius.circular(5),
                     child: Padding(
                       padding: const EdgeInsets.only(left: 10, top: 10),
-                      child: Image.asset("assets/bulb.png"),
+                      child: Expanded(child: Image.asset("assets/bulb.png")),
                     ),
                   ),
                 ],
@@ -378,13 +392,17 @@ class SecondPage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
-                  Text(
-                    "CATCHY 第1部 情報番組 …",
-                    style: GoogleFonts.aBeeZee(fontWeight: FontWeight.bold),
+                  Expanded(
+                    child: Text(
+                      "CATCHY 第1部 情報番組 …",
+                      style: GoogleFonts.aBeeZee(fontWeight: FontWeight.bold),
+                    ),
                   ),
-                  Text(
-                    "セイカツをカエルTV - 20…",
-                    style: GoogleFonts.aBeeZee(fontWeight: FontWeight.bold),
+                  Expanded(
+                    child: Text(
+                      "セイカツをカエルTV - 20…",
+                      style: GoogleFonts.aBeeZee(fontWeight: FontWeight.bold),
+                    ),
                   ),
                 ],
               ),
@@ -393,17 +411,21 @@ class SecondPage extends StatelessWidget {
                 children: [
                   Padding(
                     padding: const EdgeInsets.only(left: 20),
-                    child: Text(
-                      "2023/5/8 放送分",
-                      style: GoogleFonts.aBeeZee(color: Colors.grey.shade400),
+                    child: Expanded(
+                      child: Text(
+                        "2023/5/8 放送分",
+                        style: GoogleFonts.aBeeZee(color: Colors.grey.shade400),
+                      ),
                     ),
                   ),
                   const SizedBox(
                     width: 70,
                   ),
-                  Text(
-                    "2023/5/8 放送分",
-                    style: GoogleFonts.aBeeZee(color: Colors.grey.shade400),
+                  Expanded(
+                    child: Text(
+                      "2023/5/8 放送分",
+                      style: GoogleFonts.aBeeZee(color: Colors.grey.shade400),
+                    ),
                   ),
                 ],
               ),

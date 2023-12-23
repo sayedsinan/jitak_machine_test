@@ -106,7 +106,7 @@ class FirstPage extends StatelessWidget {
                       SizedBox(
                         width: 30,
                       ),
-                      Image.asset("assets/students.png")
+                      Expanded(child: Image.asset("assets/students.png"))
                     ],
                   ),
                 ),
@@ -152,7 +152,7 @@ class FirstPage extends StatelessWidget {
                       SizedBox(
                         width: 30,
                       ),
-                      Image.asset("assets/students.png")
+                      Expanded(child: Image.asset("assets/students.png"))
                     ],
                   ),
                 ),
@@ -198,7 +198,7 @@ class FirstPage extends StatelessWidget {
                       SizedBox(
                         width: 30,
                       ),
-                      Image.asset("assets/students.png")
+                      Expanded(child: Image.asset("assets/students.png"))
                     ],
                   ),
                 ),
@@ -270,7 +270,7 @@ class FirstPage extends StatelessWidget {
                       SizedBox(
                         width: 30,
                       ),
-                      Image.asset("assets/students.png")
+                      Expanded(child: Image.asset("assets/students.png"))
                     ],
                   ),
                 ),
@@ -316,7 +316,7 @@ class FirstPage extends StatelessWidget {
                       SizedBox(
                         width: 30,
                       ),
-                      Image.asset("assets/students.png")
+                      Expanded(child: Image.asset("assets/students.png"))
                     ],
                   ),
                 ),
@@ -362,7 +362,7 @@ class FirstPage extends StatelessWidget {
                       SizedBox(
                         width: 30,
                       ),
-                      Image.asset("assets/students.png")
+                      Expanded(child: Image.asset("assets/students.png"))
                     ],
                   ),
                 ),
@@ -408,7 +408,7 @@ class FirstPage extends StatelessWidget {
                       SizedBox(
                         width: 30,
                       ),
-                      Image.asset("assets/students.png")
+                      Expanded(child: Image.asset("assets/students.png"))
                     ],
                   ),
                 ),
@@ -454,7 +454,7 @@ class FirstPage extends StatelessWidget {
                       SizedBox(
                         width: 30,
                       ),
-                      Image.asset("assets/students.png")
+                      Expanded(child: Image.asset("assets/students.png"))
                     ],
                   ),
                 ),
@@ -515,7 +515,7 @@ class FirstPage extends StatelessWidget {
                       SizedBox(
                         width: 30,
                       ),
-                      Image.asset("assets/students.png")
+                      Expanded(child: Image.asset("assets/students.png"))
                     ],
                   ),
                 ),
@@ -560,7 +560,7 @@ class FirstPage extends StatelessWidget {
                       SizedBox(
                         width: 30,
                       ),
-                      Image.asset("assets/students.png")
+                      Expanded(child: Image.asset("assets/students.png"))
                     ],
                   ),
                 ),
@@ -605,7 +605,7 @@ class FirstPage extends StatelessWidget {
                       SizedBox(
                         width: 30,
                       ),
-                      Image.asset("assets/students.png")
+                      Expanded(child: Image.asset("assets/students.png"))
                     ],
                   ),
                 ),
@@ -650,7 +650,7 @@ class FirstPage extends StatelessWidget {
                       SizedBox(
                         width: 30,
                       ),
-                      Image.asset("assets/students.png")
+                      Expanded(child: Image.asset("assets/students.png"))
                     ],
                   ),
                 ),
@@ -708,7 +708,7 @@ class FirstPage extends StatelessWidget {
                       SizedBox(
                         width: 30,
                       ),
-                      Image.asset("assets/students.png")
+                      Expanded(child: Image.asset("assets/students.png"))
                     ],
                   ),
                 ),
@@ -753,7 +753,7 @@ class FirstPage extends StatelessWidget {
                       SizedBox(
                         width: 30,
                       ),
-                      Image.asset("assets/students.png")
+                      Expanded(child: Image.asset("assets/students.png"))
                     ],
                   ),
                 ),
@@ -798,7 +798,7 @@ class FirstPage extends StatelessWidget {
                       SizedBox(
                         width: 30,
                       ),
-                      Image.asset("assets/students.png")
+                      Expanded(child: Image.asset("assets/students.png"))
                     ],
                   ),
                 ),
@@ -843,7 +843,7 @@ class FirstPage extends StatelessWidget {
                       SizedBox(
                         width: 30,
                       ),
-                      Image.asset("assets/students.png")
+                      Expanded(child: Image.asset("assets/students.png"))
                     ],
                   ),
                 ),
