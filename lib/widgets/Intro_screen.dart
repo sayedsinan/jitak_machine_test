@@ -20,39 +20,39 @@ class Into extends StatelessWidget {
               ClipRRect(
                 borderRadius: BorderRadius.circular(10),
                 child: GestureDetector(
-                  onTap: ()=>Get.to(ThirdPage()),
+                  onTap: ()=>Get.to(const FirstPage()),
                   child: Container(
                     alignment: Alignment.center,
                     height: 100,
                     width: 100,
                     color: Colors.blueAccent,
-                    child: Text("1"),
+                    child: const Text("1"),
                   ),
                 ),
               ),
           const    SizedBox(width: 10,),
               ClipRRect(
                 borderRadius: BorderRadius.circular(10),
-                child: GestureDetector(onTap: ()=>Get.to(SecondPage()),
+                child: GestureDetector(onTap: ()=>Get.to(const SecondPage()),
                   child: Container(
                     alignment: Alignment.center,
                     height: 100,
                     width: 100,
                     color: Colors.blueAccent,
-                    child: Text("2"),
+                    child:const  Text("2"),
                   ),
                 ),
-              ),
+              ),const SizedBox(width:10 ,),
                ClipRRect(
                 borderRadius: BorderRadius.circular(10),
                 child: GestureDetector(
-                  onTap: ()=>Get.to(FirstPage()),
+                  onTap: ()=>Get.to(const ThirdPage()),
                   child: Container(
                     alignment: Alignment.center,
                     height: 100,
                     width: 100,
                     color: Colors.blueAccent,
-                    child: Text("3"),
+                    child:const Text("3"),
                   ),
                 ),
               ),

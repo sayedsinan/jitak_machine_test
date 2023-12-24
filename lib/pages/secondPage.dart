@@ -6,20 +6,24 @@ class SecondPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+        final screenWidth = MediaQuery.of(context).size.width;
+final screenHeight = MediaQuery.of(context).size.height;
     return Scaffold(
       appBar: AppBar(
         toolbarHeight: 100,
         backgroundColor: Colors.white,
         elevation: 0,
-        leading: Padding(
-          padding: const EdgeInsets.only(left: 20),
-          child: Image.asset(
-            "assets/logo.png",
-            fit: BoxFit.fitHeight,
-            height: 50,
-            width: 200,
-          ),
-        ),
+        leading: SizedBox(
+  width: screenWidth*0.5,   
+  height: screenHeight*0.5, 
+  child: Padding(
+    padding: const EdgeInsets.only(left: 20),
+    child: Image.asset(
+      "assets/logo.png",
+      fit: BoxFit.contain,
+    ),
+  ),
+),
         actions: const [
           Row(
             children: [
