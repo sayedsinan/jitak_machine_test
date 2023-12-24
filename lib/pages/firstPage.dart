@@ -1,32 +1,33 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:machinetest/widgets/bottom_navigation.dart';
 
 class FirstPage extends StatelessWidget {
   const FirstPage({Key? key});
-// Special note : Instead of this much line of code i could have used listTile with the bulder but in this case it is 
+// Special note : Instead of this much line of code i could have used listTile with the bulder but in this case it is
 // only UI i have used this approach
 
   @override
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;
-final screenHeight = MediaQuery.of(context).size.height;
+    final screenHeight = MediaQuery.of(context).size.height;
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
         toolbarHeight: 100,
         backgroundColor: Colors.white,
         elevation: 0,
-       leading:SizedBox(
-  width: screenWidth*0.5,   
-  height: screenHeight*0.5, 
-  child: Padding(
-    padding: const EdgeInsets.only(left: 20),
-    child: Image.asset(
-      "assets/logo.png",
-      fit: BoxFit.contain,
-    ),
-  ),
-),
+        leading: SizedBox(
+          width: screenWidth * 0.5,
+          height: screenHeight * 0.5,
+          child: Padding(
+            padding: const EdgeInsets.only(left: 20),
+            child: Image.asset(
+              "assets/logo.png",
+              fit: BoxFit.contain,
+            ),
+          ),
+        ),
         actions: const [
           Row(
             children: [
@@ -507,7 +508,10 @@ final screenHeight = MediaQuery.of(context).size.height;
                     "株式会社パムローカルメディア",
                     style: GoogleFonts.aBeeZee(color: Colors.grey.shade400),
                   ),
-                ),SizedBox(height: 20,)
+                ),
+                SizedBox(
+                  height: 20,
+                )
               ],
             ),
             Column(
@@ -555,7 +559,8 @@ final screenHeight = MediaQuery.of(context).size.height;
                   ),
                 ),
               ],
-            ),Column(
+            ),
+            Column(
               children: [
                 Padding(
                   padding: const EdgeInsets.only(left: 30),
@@ -600,7 +605,8 @@ final screenHeight = MediaQuery.of(context).size.height;
                   ),
                 ),
               ],
-            ),Column(
+            ),
+            Column(
               children: [
                 Padding(
                   padding: const EdgeInsets.only(left: 30),
@@ -645,7 +651,8 @@ final screenHeight = MediaQuery.of(context).size.height;
                   ),
                 ),
               ],
-            ),Column(
+            ),
+            Column(
               children: [
                 Padding(
                   padding: const EdgeInsets.only(left: 30),
@@ -690,8 +697,11 @@ final screenHeight = MediaQuery.of(context).size.height;
                   ),
                 ),
               ],
-            ),const SizedBox(height: 20,),
-              Column(
+            ),
+            const SizedBox(
+              height: 20,
+            ),
+            Column(
               children: [
                 Image.asset("assets/beachchildren.png"),
                 Padding(
@@ -700,7 +710,10 @@ final screenHeight = MediaQuery.of(context).size.height;
                     "株式会社パムローカルメディア",
                     style: GoogleFonts.aBeeZee(color: Colors.grey.shade400),
                   ),
-                ),SizedBox(height: 20,)
+                ),
+                SizedBox(
+                  height: 20,
+                )
               ],
             ),
             Column(
@@ -748,7 +761,8 @@ final screenHeight = MediaQuery.of(context).size.height;
                   ),
                 ),
               ],
-            ),Column(
+            ),
+            Column(
               children: [
                 Padding(
                   padding: const EdgeInsets.only(left: 30),
@@ -793,7 +807,8 @@ final screenHeight = MediaQuery.of(context).size.height;
                   ),
                 ),
               ],
-            ),Column(
+            ),
+            Column(
               children: [
                 Padding(
                   padding: const EdgeInsets.only(left: 30),
@@ -838,7 +853,8 @@ final screenHeight = MediaQuery.of(context).size.height;
                   ),
                 ),
               ],
-            ),Column(
+            ),
+            Column(
               children: [
                 Padding(
                   padding: const EdgeInsets.only(left: 30),
@@ -883,8 +899,11 @@ final screenHeight = MediaQuery.of(context).size.height;
                   ),
                 ),
               ],
-            ),const SizedBox(height: 20,),
-              Column(
+            ),
+            const SizedBox(
+              height: 20,
+            ),
+            Column(
               children: [
                 Image.asset("assets/banner 3.png"),
                 Padding(
@@ -893,8 +912,54 @@ final screenHeight = MediaQuery.of(context).size.height;
                     "株式会社パムローカルメディア",
                     style: GoogleFonts.aBeeZee(color: Colors.grey.shade400),
                   ),
-                ),SizedBox(height: 20,)
+                ),
+              const   SizedBox(
+                  height: 20,
+                )
               ],
+            ),
+            BottomAppBar(
+              notchMargin: 10,
+              child: Container(
+                padding : const EdgeInsets.symmetric(horizontal: 10, vertical: 15),
+                child: Row(
+                  children: [
+                    bottomAppItem(context,
+                        icon: Icons.home, page: 0, label: "ホーム"),
+                  const   SizedBox(
+                      width: 10,
+                    ),
+                    bottomAppItem(
+                      context,
+                      icon: Icons.newspaper,
+                      page: 0,
+                      label: "ニュース",
+                    ),
+                  const   SizedBox(
+                      width: 10,
+                    ),
+                    bottomAppItem(
+                      context,
+                      icon: Icons.live_tv_outlined,
+                      page: 0,
+                      label: "QAB動画",
+                    ),
+                 const    SizedBox(
+                      width: 10,
+                    ),
+                    bottomAppItem(context,
+                        icon: Icons.calendar_month, page: 0, label: "イベント"), const   SizedBox(
+                      width: 10,
+                    ),
+                    bottomAppItem(context,
+                        icon: Icons.newspaper, page: 0, label: "Topics"), const   SizedBox(
+                      width: 10,
+                    ),
+                    bottomAppItem(context,
+                        icon: Icons.local_parking_rounded, page: 0, label: "ポイント")
+                  ],
+                ),
+              ),
             ),
           ],
         ),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:machinetest/widgets/bottom_navigation.dart';
 
 class SecondPage extends StatelessWidget {
   const SecondPage({super.key});
@@ -444,6 +445,49 @@ final screenHeight = MediaQuery.of(context).size.height;
                   style: GoogleFonts.aBeeZee(color: Colors.grey.shade400),
                 ),
               )
+              , BottomAppBar(
+              notchMargin: 10,
+              child: Container(
+                padding : const EdgeInsets.symmetric(horizontal: 10, vertical: 15),
+                child: Row(
+                  children: [
+                    bottomAppItem(context,
+                        icon: Icons.home, page: 0, label: "ホーム"),
+                  const   SizedBox(
+                      width: 10,
+                    ),
+                    bottomAppItem(
+                      context,
+                      icon: Icons.newspaper,
+                      page: 0,
+                      label: "ニュース",
+                    ),
+                  const   SizedBox(
+                      width: 10,
+                    ),
+                    bottomAppItem(
+                      context,
+                      icon: Icons.live_tv_outlined,
+                      page: 0,
+                      label: "QAB動画",
+                    ),
+                 const    SizedBox(
+                      width: 10,
+                    ),
+                    bottomAppItem(context,
+                        icon: Icons.calendar_month, page: 0, label: "イベント"), const   SizedBox(
+                      width: 10,
+                    ),
+                    bottomAppItem(context,
+                        icon: Icons.newspaper, page: 0, label: "Topics"), const   SizedBox(
+                      width: 10,
+                    ),
+                    bottomAppItem(context,
+                        icon: Icons.local_parking_rounded, page: 0, label: "ポイント")
+                  ],
+                ),
+              ),
+            ),
             ],
           )
         ],
