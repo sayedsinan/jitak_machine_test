@@ -517,21 +517,7 @@ class ThirdPage extends StatelessWidget {
               padding: const EdgeInsets.only(left: 30),
               child: Row(
                 children: [
-                  ClipRRect(
-                    borderRadius: BorderRadius.circular(5),
-                    child: Container(
-                      color: Colors.orange,
-                      height: 20,
-                      width: 40,
-                      child: Center(
-                        child: Text(
-                          'NEW',
-                          style: GoogleFonts.aBeeZee(
-                              color: Colors.white, fontWeight: FontWeight.bold),
-                        ),
-                      ),
-                    ),
-                  ),
+                
                   const SizedBox(
                     width: 10,
                   ),

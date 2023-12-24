@@ -1,0 +1,5 @@
+/* This app is made by pure flutter and it is responsive to an extend and the usage of getx
+is used for navigation and get x is mainly used for state management  and navigation so 
+i have used it for navigation and  there is repetation of tile because this is just an ui so i havent used the tile 
+because it need to be selected which picture to be selected while using builders. This sums up my this ui . Thank You 
+very much.*/
