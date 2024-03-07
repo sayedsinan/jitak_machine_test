@@ -40,6 +40,7 @@ dependencies:
   easy_date_timeline: ^1.0.5
   google_fonts:
   carousel_slider: ^4.2.1
+  time_range_picker:
     
 
 dev_dependencies:

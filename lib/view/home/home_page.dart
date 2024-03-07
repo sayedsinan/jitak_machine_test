@@ -1,7 +1,4 @@
-import 'package:easy_date_timeline/easy_date_timeline.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:machine_test_jitak/view/colors/colors.dart';
 import 'package:machine_test_jitak/view/home/banner.dart';
 import 'package:machine_test_jitak/view/home/calender.dart';
 import 'package:machine_test_jitak/view/home/my_appbar.dart';
