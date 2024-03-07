@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:machine_test_jitak/controller/data_controller.dart';
+import 'package:machine_test_jitak/view/third/thirdapage.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -13,6 +14,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GetMaterialApp();
+    return const GetMaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Thirdpage()
+    );
   }
 }
