@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:machine_test_jitak/first_row_text.dart';
-import 'package:machine_test_jitak/view/style/textsyle.dart';
-
 import 'package:machine_test_jitak/view/third/app_bar.dart';
 import 'package:machine_test_jitak/view/third/checkbox.dart';
 import 'package:machine_test_jitak/view/third/date.dart';
@@ -9,6 +7,7 @@ import 'package:machine_test_jitak/view/third/first_row.dart';
 import 'package:machine_test_jitak/view/third/fourth_row_photo.dart';
 import 'package:machine_test_jitak/view/third/fourth_row_text.dart';
 import 'package:machine_test_jitak/view/third/my_text_field.dart';
+import 'package:machine_test_jitak/view/third/second_check_box.dart';
 import 'package:machine_test_jitak/view/third/second_row_image.dart';
 import 'package:machine_test_jitak/view/third/second_row_text.dart';
 import 'package:machine_test_jitak/view/third/third_row_photo.dart';
@@ -112,7 +111,7 @@ class Thirdpage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Padding(
-                  padding:  EdgeInsets.only(left: 15),
+                  padding: EdgeInsets.only(left: 15),
                   child: Text(
                     '営業時間',
                   ),
@@ -122,7 +121,7 @@ class Thirdpage extends StatelessWidget {
             SizedBox(
               height: sizeof.size.height * 0.01,
             ),
-          const  Dates(),
+            const Dates(),
             SizedBox(
               height: sizeof.size.height * 0.03,
             ),
@@ -149,7 +148,8 @@ class Thirdpage extends StatelessWidget {
                 ),
               ],
             ),
-          const  MyCheckBox()
+            const MyCheckBox(),
+            const MySecondBox()
           ],
         ),
       ),

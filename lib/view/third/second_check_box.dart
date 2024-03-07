@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class MyCheckBox extends StatelessWidget {
-  const MyCheckBox({Key? key});
+class MySecondBox extends StatelessWidget {
+  const MySecondBox({Key? key});
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +17,7 @@ class MyCheckBox extends StatelessWidget {
             ),
             Padding(
               padding: const EdgeInsets.only(right: 8.0),
-              child: Text('月'),
+              child: Text('金'),
             ),
           ],
         ),
@@ -31,7 +31,7 @@ class MyCheckBox extends StatelessWidget {
             ),
             Padding(
               padding: const EdgeInsets.only(right: 8.0),
-              child: Text(' 火  '),
+              child: Text(' 土  '),
             ),
           ],
         ),
@@ -45,7 +45,7 @@ class MyCheckBox extends StatelessWidget {
             ),
             Padding(
               padding: const EdgeInsets.only(right: 8.0),
-              child: Text('水'),
+              child: Text('日'),
             ),
           ],
         ),
@@ -59,7 +59,7 @@ class MyCheckBox extends StatelessWidget {
             ),
             Padding(
               padding: const EdgeInsets.only(right: 8.0),
-              child: Text(' 木'),
+              child: Text(' 祝'),
             ),
           ],
         ),
