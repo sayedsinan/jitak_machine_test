@@ -6,3 +6,5 @@ Color boxColor = Color(0xFFEEAB40);
 Color bannerColor = Color(0xFFFF6262);
 Color appbarContainer = Color.fromARGB(255, 192, 196, 232);
 Color appbarColor = Color(0xFFA8B1FF);
+Color buttoncolor = const Color(0xFFEE7D42);
+Color mainColor = const Color(0xFFFAAA14);

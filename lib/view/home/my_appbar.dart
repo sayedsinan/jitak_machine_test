@@ -23,7 +23,7 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
           ),
         ),
         actions: <Widget>[
-          Icon(Icons.stacked_bar_chart),
+          Image.asset('assets/Filter_icon.png'),
           SizedBox(width: 15),
           Icon(Icons.favorite_border),
         ],

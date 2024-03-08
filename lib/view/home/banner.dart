@@ -12,7 +12,7 @@ class MyContainer extends StatelessWidget {
       height: sizeof.size.height * 0.05,
       decoration: BoxDecoration(
         gradient: LinearGradient(
-          colors: [primarycolor, gradientcolor], // Green to Red
+          colors: [primarycolor, gradientcolor], 
           begin: Alignment.centerLeft,
           end: Alignment.centerRight,
         ),

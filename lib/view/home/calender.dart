@@ -1,5 +1,6 @@
 import 'package:easy_date_timeline/easy_date_timeline.dart';
 import 'package:flutter/material.dart';
+import 'package:machine_test_jitak/view/colors/colors.dart';
 
 EasyDateTimeLine localeExample() {
     return EasyDateTimeLine(
@@ -7,8 +8,8 @@ EasyDateTimeLine localeExample() {
       onDateChange: (selectedDate) {
         //`selectedDate` the new date selected.
       },
-      activeColor: const Color(0xffB04759),
-      // locale: 'ar',
+      activeColor: mainColor,
+      locale: 'ja',
     );
   }
 

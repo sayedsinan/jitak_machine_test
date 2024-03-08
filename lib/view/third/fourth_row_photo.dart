@@ -10,7 +10,7 @@ Row fourthRowPhoto(MediaQueryData sizeof) {
           height: sizeof.size.height * 0.1,
           width: sizeof.size.width * 0.22,
           child: Image.asset(
-            'assets/fourthRow1.png',
+            'assets/restaurnt.png',
             fit: BoxFit.fill,
           ),
         ),
@@ -19,7 +19,7 @@ Row fourthRowPhoto(MediaQueryData sizeof) {
           height: sizeof.size.height * 0.12,
           width: sizeof.size.width * 0.22,
           child: Image.asset(
-            'assets/fourthRow2.png',
+            'assets/restaurnt.png',
             fit: BoxFit.fill,
           ),
         ),
@@ -28,7 +28,7 @@ Row fourthRowPhoto(MediaQueryData sizeof) {
           height: sizeof.size.height * 0.12,
           width: sizeof.size.width * 0.22,
           child: Image.asset(
-            'assets/fourthRow3.png',
+            'assets/input_empty.png',
             fit: BoxFit.fill,
           ),
         ),

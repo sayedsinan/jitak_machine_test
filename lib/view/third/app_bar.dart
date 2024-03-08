@@ -1,9 +1,15 @@
  import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 AppBar thridAppBar(MediaQueryData sizeof) {
     return AppBar(
-      leading: Image.asset(
-        'assets/Group 336.png',
+      leading: InkWell(
+        onTap:(){
+          Get.back();
+        },
+        child: Image.asset(
+          'assets/Group 336.png',
+        ),
       ),
       centerTitle: true,
       title: Text("店舗プロフィール編集"),

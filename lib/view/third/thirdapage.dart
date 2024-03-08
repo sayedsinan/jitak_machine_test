@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:getwidget/getwidget.dart';
 import 'package:machine_test_jitak/first_row_text.dart';
 import 'package:machine_test_jitak/view/third/app_bar.dart';
 import 'package:machine_test_jitak/view/third/bottomRow.dart';
@@ -135,14 +134,21 @@ class Thirdpage extends StatelessWidget {
             const Heading(heading: '駐車場*'),
             const MytwoCheckBox(firstCheck: '有', secondCheck: '無'),
             const Heading(heading: '来店プレゼント'),
-            const MytwoCheckBox(firstCheck: '有（最大３枚まで）', secondCheck: '無')
-           , bottomRow(sizeof),
-           const Heading(heading: '来店プレゼント名*'),
-          const  MyTextField(hintText: ' いちごクリームアイスクリーム, ジュース'),
-          SizedBox(height: sizeof.size.height*0.05,),
-           MyButton(title: '編集を保存',  width: sizeof.size.width * 0.9,
-  height: sizeof.size.height * 0.06,),
-  SizedBox(height: sizeof.size.height*0.05,),
+            const MytwoCheckBox(firstCheck: '有（最大３枚まで）', secondCheck: '無'),
+            bottomRow(sizeof),
+            const Heading(heading: '来店プレゼント名*'),
+            const MyTextField(hintText: ' いちごクリームアイスクリーム, ジュース'),
+            SizedBox(
+              height: sizeof.size.height * 0.05,
+            ),
+            MyButton(
+              title: '編集を保存',
+              width: sizeof.size.width * 0.9,
+              height: sizeof.size.height * 0.06,
+            ),
+            SizedBox(
+              height: sizeof.size.height * 0.05,
+            ),
           ],
         ),
       ),

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:machine_test_jitak/view/colors/colors.dart';
 
 class MyButton extends StatelessWidget {
   const MyButton({
@@ -17,7 +18,7 @@ class MyButton extends StatelessWidget {
     return ElevatedButton(
       onPressed: () {},
       style: ElevatedButton.styleFrom(
-        backgroundColor: Colors.blue, // Change the background color here
+        backgroundColor: buttoncolor, // Change the background color here
         fixedSize: Size(width, height), // Set the size of the button
         shape: RoundedRectangleBorder(
           // Customize the shape of the button

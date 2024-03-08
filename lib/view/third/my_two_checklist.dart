@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class MytwoCheckBox extends StatelessWidget {
   const MytwoCheckBox({
@@ -11,15 +12,34 @@ class MytwoCheckBox extends StatelessWidget {
   final String secondCheck;
 
   @override
-  Widget build(BuildContext context) {
-    return Row(children: [
-      Padding(
-        padding: const EdgeInsets.only(left: 10),
-        child: Checkbox(value: true, onChanged: (value) {}),
-      ),
-      Text(firstCheck),
-      Checkbox(value: false, onChanged: (value) {}),
-      Text(secondCheck),
-    ]);
+   Widget build(BuildContext context) {
+    final firstChecked = RxBool(true);
+    final secondChecked = RxBool(false);
+
+    return Row(
+      children: [
+        Padding(
+          padding: const EdgeInsets.only(left: 10),
+          child: Obx(
+            () => Checkbox(
+              value: firstChecked.value,
+              onChanged: (value) {
+                firstChecked.value = value!;
+              },
+            ),
+          ),
+        ),
+        Text(firstCheck),
+        Obx(
+          () => Checkbox(
+            value: secondChecked.value,
+            onChanged: (value) {
+              secondChecked.value = value!;
+            },
+          ),
+        ),
+        Text(secondCheck),
+      ],
+    );
   }
 }
